@@ -1,0 +1,32 @@
+:root {
+    --basic: #0F0; /*-- variable declaration --*/
+    font-family: 'Times New Roman', Garmond, serif;
+    backgrounnd-color: #fff8dc;
+}
+a:link, a:visited { /*-- and-selector --*/
+    color: var(--basic);
+}
+a:hover, a:visited {
+    text-decoration: none;
+}
+#unique { /*-- id slector --*/
+    display: block;
+}
+.group { /*-- class selector --*/
+    text-transform: uppercase;
+}
+h1 { /*-- type selector --*/
+    text-align: center;
+    text-shadow: 1px 1px rgba(0,0,0,0.25);
+}
+li > a { /*-- child selector --*/
+    font-weight: 600;
+}
+main h1 { /*-- descendent selector --*/
+    font-size: 1rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+img + p { /*-- adjacent sibling selector --*/
+    font-style: italic;
+}
