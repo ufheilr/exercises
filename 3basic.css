@@ -30,3 +30,5 @@ main h1 { /*-- descendent selector --*/
 img + p { /*-- adjacent sibling selector --*/
     font-style: italic;
 }
+
+
