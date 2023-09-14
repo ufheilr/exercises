@@ -1,7 +1,7 @@
 :root {
     --basic: #0F0; /*-- variable declaration --*/
     font-family: 'Times New Roman', Garmond, serif;
-    backgrounnd-color: #fff8dc;
+    background-color: #fff8dc;
 }
 a:link, a:visited { /*-- and-selector --*/
     color: var(--basic);
